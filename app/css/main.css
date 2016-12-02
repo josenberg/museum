@@ -1,0 +1,29 @@
+.container {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.full-image_container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.full-image_container p,
+.full-image_container h3 {
+  text-align: left;
+}
+
+.full-image_container img {
+  max-width: 100%;
+}
+
+.thumbnail {
+  max-width: 300px;
+  max-width: 100%;
+  display: block;
+}
+
+.thumb-images_container {
+  height: 200px;
+}

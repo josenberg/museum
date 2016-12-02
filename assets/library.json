@@ -1,10 +1,35 @@
 {
   "paints": [{
+    "id": 1,
     "name": "Van Gogh librarys",
-    "description": "Lorem ipsum sodera ipsum sodera ipsum sodera ipsum sodera ipsum sodera ipsum sodera",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "image": {
-      "thumb": "01-thumb.jpg",
+      "thumb": "assets/01-full.jpg",
       "full": "assets/01-full.jpg"
+    }
+  }, {
+    "id": 2,
+    "name": "Van Gogh librarys",
+    "description": "1Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "image": {
+      "thumb": "assets/02-full.jpg",
+      "full": "assets/02-full.jpg"
+    }
+  }, {
+    "id": 3,
+    "name": "Van Gogh librarys",
+    "description": "2Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "image": {
+      "thumb": "assets/01-full.jpg",
+      "full": "assets/01-full.jpg"
+    }
+  }, {
+    "id": 4,
+    "name": "Van Gogh librarys",
+    "description": "2Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", "description": "Lorem ipsum sodera ipsum sodera ipsum sodera ipsum sodera ipsum sodera ipsum sodera",
+    "image": {
+      "thumb": "assets/02-full.jpg",
+      "full": "assets/02-full.jpg"
     }
   }]
 }
