@@ -12,8 +12,13 @@
       var museum = this;
 
       $http.get("/assets/library.json").then(function(rs) {
+        // load the gallery
         museum.paints = rs.data.paints;
-        museum.currentSelectedPaint = museum.paints[0];
+
+        // generating a random number get a different paitings everyload
+        var currentSelectedPaintIndex = Math.floor(Math.random() * (museum.paints.length));
+        console.log("currentSelectedPaintIndex", currentSelectedPaintIndex)
+        museum.currentSelectedPaint = museum.paints[currentSelectedPaintIndex];
         museum.currentSelectedPaint.description = $sce.trustAsHtml(museum.currentSelectedPaint.description)
       });
 
