@@ -50,3 +50,21 @@ p {
 .thumb-images_container {
   height: 200px;
 }
+
+.thumbnail_container {
+  max-width: 100%;
+}
+ul {
+    -moz-column-count: 3;
+    -moz-column-gap: 10px;
+    -webkit-column-count: 3;
+    -webkit-column-gap: 10px;
+    column-count: 3;
+    column-gap: 10px;
+    width: 100%;
+}
+
+li {
+    display: inline-block;
+    width: 100%;
+}​

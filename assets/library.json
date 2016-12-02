@@ -1,12 +1,21 @@
 {
   "paints": [{
     "id": 1,
-    "name": "Van Gogh librarys",
+    "name": "Starry Night",
     "artist": "Van Gogh",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "description": "Although The Starry Night was painted during the day in Van Gogh's ground-floor studio, it would be inaccurate to state that the picture was painted from memory. The view has been identified as the one from his bedroom window, facing east, a view which Van Gogh painted variations of no fewer than twenty-one times, including The Starry Night. 'Through the iron-barred window,' he wrote to his brother, Theo, around 23 May 1889, 'I can see an enclosed square of wheat... above which, in the morning, I watch the sun rise in all its glory.'Van Gogh depicted the view at different times of day and under various weather conditions, including sunrise, moonrise, sunshine-filled days, overcast days, windy days, and one day with rain. The hospital staff did not allow Van Gogh to paint in his bedroom, but he was able to make sketches in ink or charcoal on paper, and eventually he would base newer variations on previous versions. The pictorial element uniting all of these paintings is the diagonal line coming in from the right depicting the low rolling hills of the Alpilles mountains. In fifteen of the twenty-one versions, cypress trees are visible beyond the far wall enclosing the wheat field. Van Gogh telescoped the view in six of these paintings, most notably in F717 Wheat Field with Cypresses and The Starry Night, bringing the trees closer to the picture plane. <br /> <br /> One of the first paintings of the view was F611 Mountainous Landscape Behind Saint-Rémy, now in Copenhagen. Van Gogh made a number of sketches for the painting, of which F1547 The Enclosed Wheatfield After a Storm is typical. It is unclear whether the painting was made in his studio or outside. In his June 9 letter describing it, he mentions he had been working outside for a few days. Van Gogh described the second of the two landscapes he mentions he was working on in a letter to his sister Wil on 16 June 1889. This is F719 Green Field, now in Prague, and the first painting at the asylum he definitely painted outside en plein air. F1548 Wheat field, Saint-Rémy de Provence, now in New York, is a study for it. Two days later, Vincent wrote Theo that he had painted 'a starry sky'. <br /> <br /> The Starry Night is the only nocturne in the series of views from his bedroom window. In early June, Vincent wrote to Theo, 'This morning I saw the countryside from my window a long time before sunrise with nothing but the morning star, which looked very big' Researchers have determined that Venus was indeed visible at dawn in Provence in the spring of 1889 and at that time was near its brightest possible. So the brightest 'star' in the painting, just to the viewer's right of the cypress tree, is actually Venus. <br /> <br /> The moon is stylized, as astronomical records indicate that the moon was waning gibbous at the time Van Gogh painted the picture. Even if the phase of the moon had been a waning crescent at the time, Van Gogh's moon is not astronomically correct. (For other interpretations of the moon, see below.) The one pictorial element that was definitely not visible from Van Gogh's cell is the village, which is based on a sketch made from a hillside above the village of Saint-Rémy. Pickvance thought was done later and the steeple more Dutch than Provcençal, a conflation of several Van Gogh had painted and drawn in his Nuenen period, and thus the first of his 'reminisces of the North' he was to paint and draw early the following year. Hulsker thought a landscape on the reverse was also a study for the painting.",
     "image": {
-      "thumb": "assets/01-full.jpg",
-      "full": "assets/01-full.jpg"
+      "thumb": "assets/starry_night.jpg",
+      "full": "assets/starry_night.jpg"
+    }
+  }, {
+    "id": 3,
+    "name": "Yellow-Red-Blue",
+    "artist": "Wassily Kandinsky",
+    "description": "The Cliff Walk at Pourville is an 1882 painting by the French Impressionist painter Claude Monet. It currently resides at the Art Institute of Chicago. It is a landscape painting featuring two women atop a cliff above the sea.  <br /><br />The canvas was inspired by an extended stay at Pourville in 1882. Monet settled in the village between February and mid-April, during which time he wrote to his future wife, Alice Hoschedé, 'How beautiful the countryside is becoming, and what joy it would be for me to show you all its delightful nooks and crannies!' They returned in June of that year. The two young women standing atop the cliff may be Hoschedé's daughters, Marthe and Blanche; it has also been suggested that the figures represent Alice and Blanche, both of whom painted out of doors at that time. <br /><br /> The various elements of the painting are unified through brushwork; short, crisp strokes were used to paint the grasses of the cliff, the women's drapery and the distant sea. A sense of movement suggested by painterly calligraphy was a property of Monet's work in the 1880s, and is here used to connote the effect of a summer wind upon figures, land, water, and clouds moving across the sky. During the painting process, Monet reduced the size of a rocky promontory at far right, to better balance the composition's proportions; however, it's also been noted that this secondary cliff was a late addition to the canvas, and was not part of the original design. An X-ray of the painting indicates that the artist originally painted a third figure into the grouping, then removed it. <br /><br /> Describing similar works by the artist, art historian John House wrote, “His cliff tops rarely show a single sweep of terrain. Instead there are breaks in space; the eye progresses into depth by a succession of jumps; distance is expressed by planes overlapping each other and by atmospheric rather than linear perspective- by softening the focus and changes of color.” The sense of immediacy is heightened by the juxtapositions of the cliff and sea, the contrast between ground and openness.",
+    "image": {
+      "thumb": "assets/yellow-red-blue.jpg",
+      "full": "assets/yellow-red-blue.jpg"
     }
   }, {
     "id": 2,
@@ -18,20 +27,22 @@
       "full": "assets/the_cliff_walk_at_pourville.jpg"
     }
   }, {
-    "id": 3,
-    "name": "Van Gogh librarys",
-    "description": "2Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "id": 4,
+    "name": "Phryne revealed before the Areopagus",
+    "artist": "Jean-Léon Gérôme",
+    "description": "A depiction of Phryne, a famous hetaera (courtesan) of Ancient Greece, being disrobed before the Areopagus. Phryne was on trial for profaning the Eleusinian Mysteries, and is said to have been disrobed by Hypereides, who was defending her, when it appeared the verdict would be unfavourable. The sight of her nude body apparently so moved the judges that they acquitted her. Some authorities claim that this story is a later invention.",
     "image": {
-      "thumb": "assets/01-full.jpg",
-      "full": "assets/01-full.jpg"
+      "thumb": "assets/phryne_revealed_before_the_areopagus.jpg",
+      "full": "assets/phryne_revealed_before_the_areopagus.jpg"
     }
   }, {
-    "id": 4,
-    "name": "Van Gogh librarys",
-    "description": "2Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", "description": "Lorem ipsum sodera ipsum sodera ipsum sodera ipsum sodera ipsum sodera ipsum sodera",
+    "id": 5,
+    "name": "Un dimanche après-midi à l'Île de la Grande Jatte",
+    "artist": "Georges-Pierre Seurat",
+    "description": "In 1879 Georges Seurat enlisted as a soldier in the French army and was back home by 1880. Later, he ran a small painter’s studio in Paris, and in 1883 showed his work publicly for the first time. The following year, Seurat began to work on La Grande Jatte and exhibited the painting in the spring of 1886 with the Impressionists. With La Grande Jatte, Seurat was immediately acknowledged as the leader of a new and rebellious form of Impressionism called Neo-Impressionism. <br /><br /> Seurat spent more than two years painting A Sunday Afternoon, focusing meticulously on the landscape of the park. He reworked the original and completed numerous preliminary drawings and oil sketches. He sat in the park, creating numerous sketches of the various figures in order to perfect their form. He concentrated on issues of colour, light, and form. The painting is approximately 2 by 3 meters (7 by 10 feet) in size. <br /><br /> Inspired by optical effects and perception inherent in the color theories of Michel Eugène Chevreul, Ogden Rood and others, Seurat adapted this scientific research to his painting. Seurat contrasted miniature dots or small brushstrokes of colors that when unified optically in the human eye were perceived as a single shade or hue. He believed that this form of painting, called divisionism at the time but now known as pointillism, would make the colors more brilliant and powerful than standard brushstrokes. The use of dots of almost uniform size came in the second year of his work on the painting, 1885–86. To make the experience of the painting even more vivid, he surrounded it with a frame of painted dots, which in turn he enclosed with a pure white, wooden frame, which is how the painting is exhibited today at the Art Institute of Chicago. <br /><br />",
     "image": {
-      "thumb": "assets/02-full.jpg",
-      "full": "assets/02-full.jpg"
+      "thumb": "assets/a_sunday_on_la_grande_jatte.jpg",
+      "full": "assets/a_sunday_on_la_grande_jatte.jpg"
     }
   }]
 }

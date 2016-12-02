@@ -16,13 +16,13 @@
 
         <h3> About </h3>
         <p ng-bind-html="museum.currentSelectedPaint.description | trust"></p>
-<h3 class="artist"> {{museum.currentSelectedPaint.artist}} </h3>
+        <h3 class="artist"> {{museum.currentSelectedPaint.artist}} </h3>
 
       </div>
       <div class="thumb-images_container">
         <div class="row">
           <ul class="list-group list-unstyled">
-              <li ng-repeat="paint in museum.paints" class="col-sm-3">
+              <li ng-repeat="paint in museum.paints" class="thumbnail_container">
                 {{paint.name}}
                 <a ng-click="museum.setCurrent(paint)">
                   <img ng-src="{{paint.image.full}}" class="thumbnail" />
