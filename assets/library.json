@@ -1,0 +1,10 @@
+{
+  "paints": [{
+    "name": "Van Gogh librarys",
+    "description": "Lorem ipsum sodera ipsum sodera ipsum sodera ipsum sodera ipsum sodera ipsum sodera",
+    "image": {
+      "thumb": "01-thumb.jpg",
+      "full": "assets/01-full.jpg"
+    }
+  }]
+}
