@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title> Angular Code School Course </title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
     <link rel="stylesheet" href="app/css/main.css">
   </head>
   <body ng-controller="MuseumController as museum">
@@ -12,8 +13,11 @@
       <div class="full-image_container">
         <h1> {{museum.currentSelectedPaint.name}} </h1>
         <img ng-src="{{museum.currentSelectedPaint.image.full}}" />
+
         <h3> About </h3>
-        <p> {{museum.currentSelectedPaint.description}} </p>
+        <p ng-bind-html="museum.currentSelectedPaint.description | trust"></p>
+<h3 class="artist"> {{museum.currentSelectedPaint.artist}} </h3>
+
       </div>
       <div class="thumb-images_container">
         <div class="row">
@@ -28,10 +32,11 @@
         </div>
       </div>
     </div>
-    
+
     <!-- JS imports -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.0-rc.2/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.1/angular-sanitize.min.js"></script>
     <script src="app/app.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   </body>
